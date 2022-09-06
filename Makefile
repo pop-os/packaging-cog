@@ -16,7 +16,7 @@ default: build
 pkg/dockerfile/embed/cog.whl: python/* python/cog/* python/cog/server/* python/cog/command/*
 	@echo "Building Python library"
 	rm -rf python/dist
-	cd python && python setup.py bdist_wheel
+	cd python && python3 setup.py bdist_wheel
 	mkdir -p pkg/dockerfile/embed
 	cp python/dist/*.whl pkg/dockerfile/embed/cog.whl
 
