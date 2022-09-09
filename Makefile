@@ -4,7 +4,7 @@ COG_VERSION ?= $(shell git describe --tags --match 'v*' --abbrev=0)+dev
 RELEASE_DIR := release
 GOOS := $(shell go env GOOS)
 GOARCH := $(shell go env GOARCH)
-BINARY := $(RELEASE_DIR)/$(GOOS)/$(GOARCH)/cog
+BINARY := $(RELEASE_DIR)/$(GOOS)/cog
 INSTALL_PATH := /usr/local/bin/cog
 MAIN := cmd/cog/cog.go
 BUILD_TIME := $(shell date +%Y-%m-%dT%H:%M:%S%z)
@@ -75,7 +75,7 @@ check-fmt:
 .PHONY: lint
 lint:
 	go run github.com/golangci/golangci-lint/cmd/golangci-lint run ./...
-	mypy python/cog 
+	mypy python/cog
 
 .PHONY: mod-tidy
 mod-tidy:

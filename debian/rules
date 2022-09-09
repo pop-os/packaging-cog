@@ -1,0 +1,20 @@
+#!/usr/bin/make -f
+
+# export GO111MODULE=off
+
+%:
+	dh $@
+
+override_dh_auto_clean:
+	make clean
+
+override_dh_auto_build:
+	env GOPATH=$(shell pwd)/gopath/ \
+		GOCACHE=$(shell pwd)/gocache/ \
+		PYTHONPATH=$(shell pwd)/vendor/lib/python3.10/site-packages \
+		make build
+	mv release/linux/cog release/linux/cog-ml
+
+override_dh_auto_install:
+
+override_dh_auto_test:

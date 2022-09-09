@@ -1,0 +1,7 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: cog
+Upstream-Contact: ReplicateHQ <team@replicate.com>
+Source: https://github.com/replicate/cog
+Files: *
+Copyright: ReplicateHQ <team@replicate.com>
+License: Apache-2.0
