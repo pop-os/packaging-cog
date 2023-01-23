@@ -6,14 +6,14 @@ require (
 	github.com/anaskhan96/soup v1.2.5
 	github.com/docker/cli v20.10.17+incompatible
 	github.com/docker/docker v20.10.17+incompatible
-	github.com/getkin/kin-openapi v0.98.0
+	github.com/getkin/kin-openapi v0.113.0
 	github.com/golangci/golangci-lint v1.48.0
 	github.com/logrusorgru/aurora v2.0.3+incompatible
 	github.com/mattn/go-isatty v0.0.16
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/moby/term v0.0.0-20201110203204-bea5bbe245bf
 	github.com/spf13/cobra v1.5.0
-	github.com/stretchr/testify v1.8.0
+	github.com/stretchr/testify v1.8.1
 	github.com/vincent-petithory/dataurl v1.0.0
 	github.com/xeipuuv/gojsonschema v1.2.0
 	github.com/xeonx/timeago v1.0.0-rc5
@@ -103,6 +103,7 @@ require (
 	github.com/jgautheron/goconst v1.5.1 // indirect
 	github.com/jingyugao/rowserrcheck v1.1.1 // indirect
 	github.com/jirfag/go-printf-func-name v0.0.0-20200119135958-7558a9eaa5af // indirect
+	github.com/josharian/intern v1.0.0 // indirect
 	github.com/julz/importas v0.1.0 // indirect
 	github.com/kisielk/errcheck v1.6.2 // indirect
 	github.com/kisielk/gotool v1.0.0 // indirect
@@ -114,7 +115,7 @@ require (
 	github.com/leonklingele/grouper v1.1.0 // indirect
 	github.com/lufeee/execinquery v1.2.1 // indirect
 	github.com/magiconair/properties v1.8.6 // indirect
-	github.com/mailru/easyjson v0.0.0-20190626092158-b2ccc519800e // indirect
+	github.com/mailru/easyjson v0.7.7 // indirect
 	github.com/maratori/testpackage v1.1.0 // indirect
 	github.com/matoous/godox v0.0.0-20210227103229-6504466cf951 // indirect
 	github.com/mattn/go-colorable v0.1.12 // indirect
@@ -123,6 +124,7 @@ require (
 	github.com/mbilski/exhaustivestruct v1.2.0 // indirect
 	github.com/mgechev/revive v1.2.1 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
+	github.com/mohae/deepcopy v0.0.0-20170929034955-c48cc78d4826 // indirect
 	github.com/moricho/tparallel v0.2.1 // indirect
 	github.com/nakabonne/nestif v0.3.1 // indirect
 	github.com/nbutton23/zxcvbn-go v0.0.0-20210217022336-fa2cb2858354 // indirect
@@ -133,6 +135,7 @@ require (
 	github.com/opencontainers/image-spec v1.0.2 // indirect
 	github.com/pelletier/go-toml v1.9.5 // indirect
 	github.com/pelletier/go-toml/v2 v2.0.2 // indirect
+	github.com/perimeterx/marshmallow v1.1.4 // indirect
 	github.com/phayes/checkstyle v0.0.0-20170904204023-bfd46e6a821d // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
@@ -165,7 +168,7 @@ require (
 	github.com/spf13/viper v1.12.0 // indirect
 	github.com/ssgreg/nlreturn/v2 v2.2.1 // indirect
 	github.com/stbenjam/no-sprintf-host-port v0.1.1 // indirect
-	github.com/stretchr/objx v0.4.0 // indirect
+	github.com/stretchr/objx v0.5.0 // indirect
 	github.com/subosito/gotenv v1.4.0 // indirect
 	github.com/sylvia7788/contextcheck v1.0.4 // indirect
 	github.com/tdakkota/asciicheck v0.1.1 // indirect
